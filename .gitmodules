@@ -1,3 +1,5 @@
 [submodule "App-expo"]
 	path = App-expo
 	url = https://github.com/frankbydefault/TICs-ManagerApp.git
+[submodule "DbConnector"]
+	branch = main
