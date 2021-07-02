@@ -2,7 +2,8 @@
 Proyecto 2 TIC
 
 ## Código de Arduino
-´´´
+
+```
 #include "DHT.h"
 
 #define DHTPIN 2
@@ -41,12 +42,12 @@ void loop() {
   Alertas("Humedad",valorHumedad);
   delay(6000);
 }
-´´´
+```
 
 ## Código de Python
 Envio de datos desde Arduino a base de datos Firebase
 
-´´´
+```
 import serial
 import time
 import firebase_admin
@@ -100,4 +101,4 @@ while True:
     print(array_valores)
 
 arduino.close()
-´´´
+```
