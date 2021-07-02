@@ -11,10 +11,12 @@ El código del Arduino se le hará un Debugging antes de integrarlo a la línea 
 ## B. Documentación de operación y uso de artefacto
 El proyecto Manager 3000 se centra en la administración de ambientes, siendo el objetivo principal, el garantizar que el usuario posea un entorno óptimo para sus necesidades diarias. El dispositivo despliega los datos de humedad, temperatura, gas CO2 y luminosidad de una habitación, posibilitando al usuario regular estos parámetros , por medio de la aplicación ,como estime conveniente.
 
-*El artefacto cuenta con 3 principales ejes de operación:
-    *Arduino y sensores configurados para capturar datos.
-    *Base de datos Firebase, que almacena los datos proporcionados por el arduino.
-    *Aplicación móvil con funcionalidad de receptor, interpretador y usuario de los datos capturados por el arduino.    
+El artefacto cuenta con 3 principales ejes de operación:
+    1.Arduino y sensores configurados para capturar datos.
+    
+    2.Base de datos Firebase, que almacena los datos proporcionados por el arduino.
+    
+    3.Aplicación móvil con funcionalidad de receptor, interpretador y usuario de los datos capturados por el arduino.    
 -En el eje de operación de Arduino, se encuentran los sensores que realizan la captura de datos; sensor de gas, sensor de humedad, sensor de temperatura y sensor de luz en base a fotorresistor , estos se conectan directamente a la base de datos de Firebase referenciando los datos interpretados por los sensores.
 -En las base de datos se almacenan los datos respectivos al usuario, con un index de fácil referenciación (Ejemplo: DatosUsuario1), en esta se almacenan los datos de “Gas”, “Luz”, “Humedad” y “Temperatura”, seguido a su vez por un dato “Cantidad” que referencia la cantidad de veces que se han agregado los datos en la base respectiva.
 -En el eje de aplicación móvil, se estructuró y programó una aplicación móvil a través del framework React Native, el cual permite exportar a plataforma Web, Android y IOs. En esta aplicación se observa en un principio un ingreso de cuenta y registro correspondiente para almacenar los datos con respecto al usuario que desee utilizar el artefacto, cuando la acción de registro seguido por acceso a la aplicación se ejecuta correctamente, por consiguiente, nos encontraremos dentro del menú de la aplicación, componente que posee:
