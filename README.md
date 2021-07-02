@@ -1,5 +1,5 @@
 # Manager 3000 Plus
-Proyecto 2 TIC
+El proyecto Manager 3000 se centra en la administración de ambientes, siendo el objetivo principal, el garantizar que el usuario posea un entorno óptimo para sus necesidades diarias. El dispositivo despliega los datos de humedad, temperatura, gas CO2 y luminosidad de una habitación, posibilitando al usuario regular estos parámetros , por medio de la aplicación ,como estime conveniente.
 ## A. Documentación de diseño
 ### Diagrama de ensamblaje
     Para la fabricación del dispositivo, se deberá contar en primera instancia con un Arduino uno, el cual será revisado para verificar que no cuenta con ninguna imperfección antes de proceder a la línea principal de ensamblaje.
